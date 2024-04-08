@@ -23,7 +23,7 @@ function redirectToUrlWithCity(cp, params) {
   let ville = Object.keys(villeCP).find(ville => villeCP[ville].includes(cp));
 
   if (ville) {
-    const newBaseURL = `https://skoda-fabia-essai.novperfs.com/concessions/${ville}`;
+    const newBaseURL = `https://skoda-kamiq-essai.novperfs.com/concessions/${ville}`;
     const finalUrl = `${newBaseURL}?${params.toString()}`;
     window.location.href = finalUrl;
   } else {
