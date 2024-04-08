@@ -28,6 +28,5 @@ function redirectToUrlWithCity(cp, params) {
     window.location.href = finalUrl;
   } else {
     console.log("Code postal non géré.");
-
   }
 }
